@@ -1,6 +1,6 @@
 package co.edu.ucc.haroldadrian.singleton;
 
-class Logger {
+public class Logger {
     private static Logger instance;
     private Logger() {}
     public static Logger getInstance() {
